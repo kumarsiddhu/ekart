@@ -1,0 +1,873 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #333;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+ 
+
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+div{
+    display: block;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+element.style {
+    margin-left: -15px;
+}
+
+header {
+    background: #fff;
+    padding: 30px 32px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.033);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    -webkit-animation: slideUp 300ms linear;
+    animation: slideUp 300ms linear;
+    display: block;
+
+}
+
+header .container {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.greenLogo {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.greenLogo .redLogo {
+    color: orange;
+}
+ 
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+        opacity: 0.5;
+    }
+    
+    
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    
+    }
+}
+
+
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #077915;
+    color: #fff;
+}
+
+
+/* -----part two------------------------------------------- */
+
+.products-wrapper {
+    padding-top: 98px;
+    -webkit-animation: slideUp 300ms linear;
+    animation: slideUp 300ms linear;
+    -webkit-animation-delay: 150ms;
+    animation-delay: 150ms;
+}
+
+.products {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 16px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.products .wrapperTwo {
+    width: 100%;
+}
+
+element.style {
+    display: none;
+}
+
+button {
+    height: 36px;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    background: #077915;
+    border: 0;
+    font-weight: 400;
+    padding: 0 16px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    /* Other styles can be added here */
+  }
+  
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+
+.tableWrapper .row .col-xs-4 select#page-menu {
+    background: #3d8117;
+    margin-left: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+input, select {
+    font-size: inherit;
+    font-family: inherit;
+}
+button, select {
+    text-transform: none;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+select {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-rtl-ordering: logical;
+    background-color: field;
+    cursor: default;
+    margin: 0em;
+    white-space: pre;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 0px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+.tableWrapper .row .col-xs-4 input#search-field {
+    border: 1px solid #bfbca4;
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+input[type="search"] {
+    outline-offset: -2px; /* Adjust the outline offset */
+    
+  }
+  
+
+input:not([type="image" i]) {
+    box-sizing: border-box;
+}
+
+input[type="search" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+.row {
+    
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pagination {
+    
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+
+.tableWrapper .row .col-xs-4, .tableWrapper .row .col-xs-8 {
+    width: 50%;
+}
+
+.tableWrapper .row .col-xs-8 ul.pagination.pull-right {
+    float: right;
+}
+
+
+ul {
+    list-style: none;
+}
+ul {
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.tableWrapper .row .col-xs-8 ul.pagination.pull-right li {
+    margin: 5px;
+    background: #008000;
+    border-radius: 5px;
+}
+
+.tableWrapper .row .col-xs-8 ul.pagination.pull-right li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    line-height: 2;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.tableWrapper .row .col-xs-8 ul.pagination.pull-right li.active {
+    background: #fba530;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+    border-collapse: collapse;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+caption {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #6c757d;
+    text-align: left;
+    caption-side: bottom;
+    display: table-caption;
+    text-align: -webkit-center;
+}
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+element.style {
+    width: 112px;
+}
+
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table th {
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    text-align: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tableWrapper table .sort-icon.sort-descending {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.tableWrapper table .sort-icon.sort-descending:after {
+    content: '';
+}
+.sort-icon.sort-descending:after {
+    content: '\f0dd';
+}
+
+
+
+.tableWrapper table .sort-icon {
+    border: solid #fba530;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    float: right;
+    margin-top: 5px;
+}
+.sort-icon:after {
+    color: #b3b3b3;
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+}
+
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.tableWrapper table .sort-icon.sort-none {
+    display: none;
+}
+
+/* ----part 3---------------------------------------------------------------- */
+.date-field-container {
+    text-align: center;
+}
+
+.date-field-container label {
+    margin: 0 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+
+.date-field-container .react-date-picker {
+    width: 250px;
+}
+
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+    box-sizing: border-box;
+}
+
+
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+    box-sizing: border-box;
+}
+
+.react-date-picker {
+    display: inline-flex;
+    position: relative;
+}
+
+.date-field-container .react-date-picker .react-date-picker__wrapper {
+    border-radius: 18px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #403c3c;
+}
+
+.react-date-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: thin solid gray;
+}
+
+
+.date-field-container .react-date-picker .react-date-picker__wrapper .react-date-picker__inputGroup {
+    display: inline;
+}
+
+
+
+
+.react-date-picker__inputGroup {
+    padding-left: 8px !important;
+}
+
+
+.react-date-picker__inputGroup {
+    min-width: calc((4px* 3) + 0.54em* 8 + 0.217em* 2);
+    flex-grow: 1;
+    padding: 0 2px;
+    box-sizing: content-box;
+}
+
+
+.date-field-container .react-date-picker .react-date-picker__wrapper {
+    border-radius: 18px;
+    border: 1px solid #aaa;
+    background: #fff;
+    color: #403c3c;
+}
+
+.react-date-picker__inputGroup
+ element.style {
+    visibility: hidden;
+    position: absolute;
+    z-index: -999;
+}
+
+.date-field-container input[type=date] {
+    padding: 8px;
+    border-radius: 24px;
+    border: none;
+    width: 212px;
+    outline: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+input[type="month"]::-webkit-inner-spin-button,
+input[type="month"]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+
+
+[hidden] {
+    display: none !important;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.react-date-picker__inputGroup__divider, .react-date-picker__inputGroup__leadingZero {
+    display: inline-block;
+}
+
+.date-field-container {
+    text-align: center;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-date-picker__inputGroup__input--hasLeadingZero {
+    padding: 0px;
+}
+
+.react-date-picker__inputGroup__input--hasLeadingZero {
+    margin-left: -0.54em;
+    padding-left: calc(1px + 0.54em);
+}
+
+.react-date-picker__inputGroup__input {
+    min-width: 0.54em;
+    height: 100%;
+    position: relative;
+    padding: 0 1px;
+    border: 0;
+    background: none;
+    color: currentColor;
+    font: inherit;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+
+
+input[type="number" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+button, input {
+    overflow: visible;
+}
+
+.react-date-picker__inputGroup__divider, .react-date-picker__inputGroup__leadingZero {
+    display: inline-block;
+}
+
+
+.react-date-picker__inputGroup__divider {
+    padding: 1px 0;
+    white-space: pre;
+}
+
+.date-field-container .react-date-picker .react-date-picker__wrapper button {
+    color: #403c3c !important;
+    background-color: transparent;
+    display: inline;
+}
+
+
+.react-date-picker__button:enabled {
+    cursor: pointer;
+}
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+
+.react-date-picker__button {
+    border: 0;
+    background: transparent;
+    padding: 4px 6px;
+}
+
+
+.react-date-picker__button svg {
+    display: inherit;
+}
+
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+ svg Attributes Style {
+    width: 19px; 
+    height: 19px; 
+    stroke: black;
+    stroke-width: 2px; 
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+.date-field-container .react-date-picker .react-date-picker__wrapper button {
+    color: #403c3c !important;
+    background-color: transparent;
+    display: inline;
+}
+.react-date-picker__button:enabled {
+    cursor: pointer;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+rect[Attributes] {
+    fill: none;
+    height: 15px; 
+    width: 15px; 
+    x: 2;
+    y: 2; 
+}
+
+
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

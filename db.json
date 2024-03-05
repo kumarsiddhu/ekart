@@ -1,0 +1,34 @@
+{
+    "users" : [
+        {    
+        "id": 2,
+        "name":"ravi",
+        "email":"0001@gmail.com"
+       },
+       {    
+        "id": 3,
+        "name":"ram",
+        "email":"0002@gmail.com"
+       },
+       {    
+        "id": 4,
+        "name":"rani",
+        "email":"0004@gmail.com"
+       },
+       {    
+        "id": 5,
+        "name":"rahul",
+        "email":"0005@gmail.com"
+       },
+       {    
+        "id": 6,
+        "name":"vani",
+        "email":"0006@gmail.com"
+       },
+       {    
+        "id": 7,
+        "name":"sunil",
+        "email":"0007@gmail.com"
+       }
+    ]
+}
